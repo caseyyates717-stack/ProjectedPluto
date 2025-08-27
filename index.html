@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ProjectedPluto | Links</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: radial-gradient(circle at top, #2c003e, #000000 80%);
+      color: white;
+      text-align: center;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+      color: #bb86fc;
+    }
+
+    .bio {
+      margin-bottom: 2rem;
+      font-size: 1rem;
+      color: #aaa;
+    }
+
+    .links {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      width: 90%;
+      max-width: 400px;
+    }
+
+    .link {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      background: rgba(187, 134, 252, 0.1);
+      border: 2px solid #bb86fc;
+      padding: 1rem;
+      border-radius: 12px;
+      text-decoration: none;
+      color: white;
+      transition: transform 0.2s, background 0.3s;
+    }
+
+    .link:hover {
+      background: rgba(187, 134, 252, 0.3);
+      transform: scale(1.05);
+    }
+
+    .icon {
+      width: 24px;
+      height: 24px;
+      fill: #bb86fc;
+    }
+
+    .label {
+      font-weight: bold;
+    }
+
+    .meta {
+      font-size: 0.9rem;
+      color: #aaa;
+    }
+  </style>
+</head>
+<body>
+  <h1>ProjectedPluto</h1>
+  <p class="bio"></p>
+
+  <div class="links">
+    <!-- YouTube -->
+    <a class="link" href="https://www.youtube.com/@ProjectedPluto" target="_blank">
+      <span class="label">YouTube</span>
+      <span class="meta">@ProjectedPluto</span>
+    </a>
+
+    <!-- X (Twitter) -->
+    <a class="link" href="https://x.com/projectedpluto" target="_blank">
+      <span class="label">X (Twitter)</span>
+      <span class="meta">@projectedpluto</span>
+    </a>
+
+    <!-- TikTok -->
+    <a class="link" href="https://tiktok.com/@projectedpluto" target="_blank">
+      <span class="label">TikTok</span>
+      <span class="meta">@projectedpluto</span>
+    </a>
+
+    <!-- Roblox -->
+    <a class="link" href="https://www.roblox.com/users/1509142359/profile" target="_blank">
+      <span class="label">Roblox</span>
+      <span class="meta">My Profile</span>
+    </a>
+
+    <!-- Twitch -->
+    <a class="link" href="https://www.twitch.tv/projectedpluto" target="_blank">
+      <span class="label">Twitch</span>
+      <span class="meta">ProjectedPluto</span>
+    </a>
+  </div>
+</body>
+</html>
